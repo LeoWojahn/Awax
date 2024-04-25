@@ -1,0 +1,33 @@
+@charset "UTF-8";
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+/*Início das configurações do HEADER*/
+header {
+    height: 100px;
+    background-color: #000000;
+    color: #ffffff;
+}
+.header-conteudo {
+    max-width: 1140px;
+    height: 100px;
+    margin: auto;
+    display: flex;
+    align-items: center;
+}
+
+.header-logo > img {
+    width: 80px;
+}
+
+.header-menu {
+    flex: 1;
+    display: flex;
+    justify-content: end;
+}
+/*Fim das configurações do HEADER*/
