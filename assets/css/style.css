@@ -52,5 +52,17 @@ header {
 }
 .header-menu li a:hover, .header-menu .active > a {
     border-bottom: 5px solid #b28756;
+    color: #CCC;
 }
 /*Fim das configurações do HEADER*/
+
+
+/*Início das configurações do BANNER em MAIN*/
+.main-banner {
+    height: calc(100vh - 100px);
+    background-color: #333;
+    background-image: url(../images/bg.jpg);
+    background-size: cover;
+    background-position: bottom;
+}
+/*Fim das configurações do BANNER em MAIN*/
