@@ -8,6 +8,7 @@
 body {
     font-family: 'Montserrat', Arial, Helvetica, sans-serif;
     font-size: 13px;
+    overflow-x: hidden;
 }
 
 /*Início das configurações do HEADER*/
@@ -132,3 +133,41 @@ header {
     background-color: #b28756;
 }
 /*Fim das configurações do BANNER em MAIN*/
+
+
+/*Início das configurações do DEFAULT em MAIN*/
+.main-default {
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+.main-default-title, .main-default-desc {
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: 800;
+}
+.main-default-title {
+    font-size: 20px;
+}
+.main-default-desc {
+    font-size: 12px;
+    color: #acacac;
+    margin-top: 10px;
+    margin-bottom: 40px;
+}
+.main-default-body {
+    margin: auto;
+    max-width: 1140px;
+}
+.main-default.light {
+    background-color: #f7f7f7;
+}
+.main-default.light > .main-default-title {
+    color: #000;
+}
+.main-default.dark {
+    background-color: #000;
+}
+.main-default.dark > .main-default-title {
+    color: #FFF;
+}
+/*Fim das configurações do DEFAULT em MAIN*/
