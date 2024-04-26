@@ -58,6 +58,22 @@ header {
 /*Fim das configurações do HEADER*/
 
 
+/*Início das configurações do MAIN*/
+.button {
+    display: inline-block;
+    background-color: #b28756;
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 13px;
+    font-weight: 800;
+    text-decoration: none;
+    padding: 15px 35px;
+    margin-top: 20px;
+    border-radius: 15px;
+}
+/*Fim das configurações do MAIN*/
+
+
 /*Início das configurações do BANNER em MAIN*/
 .main-banner {
     height: calc(100vh - 100px);
@@ -98,18 +114,6 @@ header {
     text-transform: uppercase;
     margin-top: 7px;
     font-size: 25px;
-}
-.main-slide-area > a {
-    display: block;
-    background-color: #b28756;
-    color: #fff;
-    text-transform: uppercase;
-    font-size: 13px;
-    font-weight: 800;
-    text-decoration: none;
-    padding: 15px 35px;
-    margin-top: 20px;
-    border-radius: 15px;
 }
 .main-sliders-pointers {
     width: 100vw;
@@ -161,13 +165,35 @@ header {
 .main-default.light {
     background-color: #f7f7f7;
 }
-.main-default.light > .main-default-title {
+.main-default.light > .main-default-title, .main-default.light > .main-default-body {
     color: #000;
 }
 .main-default.dark {
     background-color: #000;
 }
-.main-default.dark > .main-default-title {
+.main-default.dark > .main-default-title, .main-default.dark > .main-default-body {
     color: #FFF;
 }
 /*Fim das configurações do DEFAULT em MAIN*/
+
+
+/*Início das configurações do DEFAULT "ABOUT US" em MAIN*/
+.main-default-aboutus {
+    display: flex;
+}
+.main-default-aboutus-left {
+    flex: 1;
+}
+.main-default-aboutus-left > p {
+    font-size: 14px;
+    line-height: 25px;
+}
+.main-default-aboutus-right {
+    width: 520px;
+    text-align: center;
+}
+.main-default-aboutus-right > img {
+    width: 480px;
+    box-shadow: 0px 5px 10px #333;
+}
+/*Fim das configurações do DEFAULT "ABOUT US" em MAIN*/
