@@ -223,3 +223,39 @@ header {
     color: #999;
 }
 /*Fim das configurações do DEFAULT "SERVICES" em MAIN*/
+
+
+/*Início das configurações do DEFAULT "PROJECTS" em MAIN*/
+.main-default-projects {
+    display: flex;
+    justify-content: center;
+}
+.main-default-projects-filters {
+    border: 1px solid #D6D6D6;
+    background-color: #eee;
+    border-radius: 30px;
+    display: inline-block;
+    padding: 0px 20px;
+}
+.main-default-projects-filters ul,
+.main-default-projects-filters li {
+    list-style: none;
+}
+.main-default-projects-filters li {
+    display: inline-block;
+    padding: 10px;
+    text-transform: uppercase;
+    font-size: 13px;
+    border-left: 1px solid #D6D6D6;
+    color: #555;
+    border-bottom: 3px solid #EEE;
+    cursor: pointer;
+}
+.main-default-projects-filters li:hover, 
+.main-default-projects-filters li.active {
+    border-bottom: 3px solid #b28756;
+}
+.main-default-projects-filters li:first-child {
+    border-left: 0px;
+}
+/*Fim das configurações do DEFAULT "PROJECTS" em MAIN*/
