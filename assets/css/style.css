@@ -346,5 +346,68 @@ header {
 
 
 /*Início das configurações do FOOTER*/
+footer {
+    background-color: #000000;
+}
+.footer-area {
+    width: 100vw;
+    max-width: 1140px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    color: #999;
+}
+.footer-area-item {
+    flex: 1;
+    padding: 30px 15px;
+}
 
+.footer-area-item:first-child {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.footer-area-item:first-child ul, li, a {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    margin: 2px;
+}
+.footer-area-item:first-child a {
+    background-color: #333;
+    width: 40px;
+    height: 40px;
+    border-radius: 20px;
+}
+.footer-area-item:first-child img {
+    padding: 10px;
+}
+.footer-area-item:last-child {
+    background-color: #333;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.footer-area-item:last-child div {
+    
+}
+.footer-area-item:last-child input,
+.footer-area-item:last-child a {
+    display: inline-block;
+}
+.footer-area-item:last-child input {
+    background-color: #333;
+    border: 0;
+    padding: 15px;
+    border-bottom: 1px solid #999;
+}
+.footer-area-item:last-child input::placeholder {
+    text-align: center;
+    font-weight: 600;
+}
 /*Início das configurações do FOOTER*/
