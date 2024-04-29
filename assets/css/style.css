@@ -228,7 +228,8 @@ header {
 /*Início das configurações do DEFAULT "PROJECTS" em MAIN*/
 .main-default-projects {
     display: flex;
-    justify-content: center;
+    flex-direction: column;
+    align-items: center;
 }
 .main-default-projects-filters {
     border: 1px solid #D6D6D6;
@@ -257,5 +258,29 @@ header {
 }
 .main-default-projects-filters li:first-child {
     border-left: 0px;
+}
+
+.main-default-projects-photos {
+    width: 100vw;
+    max-width: 1140px;
+    margin-top: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.main-default-projects-photo {
+    width: 280px;
+}
+.main-default-projects-photoarea {
+    margin: 10px;
+    width: 260px;
+    height: 160px;
+}
+.main-default-projects-photoarea img {
+    width: inherit;
+    height: inherit;
+}
+.main-default-projects-photoinfo {
+    display: none;
 }
 /*Fim das configurações do DEFAULT "PROJECTS" em MAIN*/
