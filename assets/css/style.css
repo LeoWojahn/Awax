@@ -393,9 +393,6 @@ footer {
     align-items: center;
     flex-direction: column;
 }
-.footer-area-item:last-child div {
-    
-}
 .footer-area-item:last-child input,
 .footer-area-item:last-child a {
     display: inline-block;
