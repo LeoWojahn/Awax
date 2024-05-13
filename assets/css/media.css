@@ -65,3 +65,81 @@
         width: auto;
     }
 }
+
+@media (max-width:450px) {
+    .header-logo {
+        margin-left: 30px;
+    }
+    .menu-opener {
+        width: 45px;
+        margin-right: 30px;
+        display: block;
+    }
+    nav {
+        position: absolute;
+        z-index: 99;
+        background-color: rgba(0, 0, 0, 0.9);
+        width: 100vw;
+        height: calc(100vh - 100px);
+        top: 100px;
+        right: 0;
+    }
+    .header-menu ul {
+        flex-direction: column;
+        align-items: start;
+    }
+    .header-menu li a {
+        font-weight: bold;
+        height: 80px;
+        font-size: 20px;
+        margin-left: 50px;
+        border: 0;
+    }
+    .header-menu li.active a {
+        border: 0;
+        color: #B28756;
+    }
+
+    .main-default-aboutus {
+        flex-direction: column;
+    }
+    .main-default-aboutus-left {
+        margin-left: 30px;
+        margin-right: 30px;
+        margin-bottom: 30px;
+    }
+    .main-default-aboutus-right {
+        width: auto;
+    }
+
+    .main-default-services {
+        flex-wrap: wrap;
+    }
+
+    .main-default-service {
+        min-width: 50%;
+    }
+
+    .main-map {
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+    .main-map-area {
+        width: auto;
+    }
+    .main-map-info {
+        width: auto;
+    }
+
+    .footer-area {
+        flex-direction: column;
+    }
+    .footer-area p {
+        margin-left: 30px;
+        margin-right: 30px;
+    }
+
+    .footer-area-item {
+        padding-top: 1px;
+    }
+}
