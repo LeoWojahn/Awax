@@ -29,6 +29,9 @@ header {
     width: 80px;
 }
 
+.menu-opener {
+    display: none;
+}
 .header-menu {
     flex: 1;
     display: flex;
